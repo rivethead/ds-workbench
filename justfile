@@ -1,10 +1,18 @@
+import 'bench/wine/justfile'
+
 list:
     @just --list
 
+create-virtual-env:
+  @python3 -m venv .env_bench
+  @echo "source .env_bench/bin/activate"
+
+delete-virtual-env:
+  @rm -rf .env_bench
+
 install:
-  python3 -m venv .env_bench
-  source .env_bench/bin/activate
-  pip install -r requirements.txt
+  source .env_bench/bin/activate && \
+    pip install -r requirements.txt
 
 env-up:
   docker-compose -f infrastructure/docker-compose.yml --env-file infrastructure/default.env up -d

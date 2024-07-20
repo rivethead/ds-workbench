@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pieter/projects/other/ds-bench/bench/wine/mlruns/0/de811764d29940dab5d49bb1073ccdc2/artifacts
+end_time: 1721486060877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de811764d29940dab5d49bb1073ccdc2
+run_name: sedate-worm-414
+run_uuid: de811764d29940dab5d49bb1073ccdc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721486059640
+status: 3
+tags: []
+user_id: pieter
