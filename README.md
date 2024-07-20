@@ -15,6 +15,7 @@ The workbench infrastructure is inspired and informed by https://emilygorcenski.
   - Start MLflow server - http://localhost:5555
   - Start PostgreSQL database
   - Start MinIO - http://localhost:9000
+  - Start JupyterLab - http://localhost:8888/?token=neely
 
 - Run `just env-down` to:
 

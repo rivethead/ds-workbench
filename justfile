@@ -16,6 +16,9 @@ install:
 
 env-up:
   docker-compose -f infrastructure/docker-compose.yml --env-file infrastructure/default.env up -d
+  @echo "MLflow server - http://localhost:5555"
+  @echo "MinIO - http://localhost:9000"
+  @echo "JupyterLab - http://localhost:8888/?token=neely"
 
 env-down:
   docker-compose -f infrastructure/docker-compose.yml --env-file infrastructure/default.env down
