@@ -1,5 +1,3 @@
-import 'bench/wine/justfile'
-
 list:
     @just --list
 
